@@ -5,6 +5,7 @@
 # Reverse Proxy moderne pour Debian 13
 # Auteur: Tiago Matias
 # Repository: https://github.com/tiagomatiastm-prog/zoraxy-installer
+# Dernière mise à jour: 2025-11-05
 #########################################
 
 set -e
