@@ -133,8 +133,8 @@ Wants=network-online.target
 Type=simple
 User=$ZORAXY_USER
 Group=$ZORAXY_USER
-WorkingDirectory=$INSTALL_DIR
-ExecStart=$INSTALL_DIR/zoraxy -port=:$MGMT_PORT -datadir=$DATA_DIR
+WorkingDirectory=$DATA_DIR
+ExecStart=$INSTALL_DIR/zoraxy -port=:$MGMT_PORT
 Restart=always
 RestartSec=5
 
