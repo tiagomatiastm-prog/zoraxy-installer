@@ -1,0 +1,28 @@
+# Fichiers d'informations sensibles
+zoraxy-info*.txt
+*-credentials.txt
+
+# Fichiers Ansible
+*.retry
+ansible-deployment/group_vars/vault.yml
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Environment
+.env
+.env.local
