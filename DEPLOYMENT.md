@@ -81,7 +81,7 @@ Créez `deploy-zoraxy.yml` :
 
     - name: Download Zoraxy installation script
       get_url:
-        url: https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/main/install-zoraxy.sh
+        url: https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/master/install-zoraxy.sh
         dest: /tmp/install-zoraxy.sh
         mode: '0755'
 

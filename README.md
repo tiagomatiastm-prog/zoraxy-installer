@@ -28,13 +28,13 @@ Zoraxy est un reverse proxy moderne écrit en Go, conçu pour simplifier la gest
 ### Installation en une ligne
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/main/install-zoraxy.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/master/install-zoraxy.sh | sudo bash
 ```
 
 ### Installation manuelle
 
 ```bash
-wget https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/main/install-zoraxy.sh
+wget https://raw.githubusercontent.com/tiagomatiastm-prog/zoraxy-installer/master/install-zoraxy.sh
 chmod +x install-zoraxy.sh
 sudo ./install-zoraxy.sh
 ```
